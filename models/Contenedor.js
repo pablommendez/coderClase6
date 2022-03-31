@@ -1,6 +1,6 @@
-import fs from 'fs'
+const fs = require('fs')
 
-export default class Contenedor {
+class Contenedor {
     constructor(nombreDeArchivo) {
         this.nombreDeArchivo = nombreDeArchivo
         this.archivoYaExiste = this.chequearArchivoCreado()
@@ -85,4 +85,8 @@ export default class Contenedor {
             Error(`Ups, ha ocurrudo un error: ${error}`)
         }
     }
+}
+
+module.exports = {
+    Contenedor
 }

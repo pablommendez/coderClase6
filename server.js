@@ -1,5 +1,5 @@
-import express from "express"
-import Contenedor from './models/Contenedor.js'
+const express = require('express')
+const{Contenedor} = require('./models/Contenedor')
 
 const app = express()
 const contenedorDeProductos = new Contenedor('productos.txt')
