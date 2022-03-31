@@ -2,6 +2,7 @@ const express = require('express')
 const { Contenedor } = require('./models/Contenedor')
 
 const app = express()
+app.set('json spaces', 4)
 const contenedorDeProductos = new Contenedor('productos.txt')
 const PORT = process.env.PORT || 8080
 
