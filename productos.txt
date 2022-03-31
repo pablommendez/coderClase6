@@ -1,0 +1,20 @@
+[
+  {
+    "title": "mouse",
+    "price": 2500,
+    "thumbnail": "https://support.content.office.net/es-es/media/e8384959-ad1a-1b95-762b-2861496b886e.png",
+    "id": 1
+  },
+  {
+    "title": "pad",
+    "price": 1000,
+    "thumbnail": "https://s3-sa-east-1.amazonaws.com/saasargentina/FutXSvUjuTioy30DYQEZ/imagen",
+    "id": 3
+  },
+  {
+    "title": "mouse",
+    "price": 2500,
+    "thumbnail": "https://support.content.office.net/es-es/media/e8384959-ad1a-1b95-762b-2861496b886e.png",
+    "id": 4
+  }
+]

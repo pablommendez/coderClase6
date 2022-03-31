@@ -1,1 +1,1 @@
-# coderClase6
+# Ejercicio de la clase 6 del curso backend de Coder House.
